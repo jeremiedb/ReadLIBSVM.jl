@@ -1,0 +1,4 @@
+name = "ReadLIBSVM"
+uuid = "472a48ec-b7f1-4628-bb5d-b49bc9312f54"
+authors = ["jeremie.desgagne.bouchard <jeremie.desgagne.bouchard@gmail.com>"]
+version = "0.1.0"
