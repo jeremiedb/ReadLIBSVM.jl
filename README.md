@@ -1,5 +1,19 @@
 # ReadLIBSVM.jl
 
+| Documentation | CI Status |
+|:------------------------:|:----------------:|
+| [![][docs-stable-img]][docs-stable-url] [![][docs-latest-img]][docs-latest-url] | [![][ci-img]][ci-url] |
+
+[docs-latest-img]: https://img.shields.io/badge/docs-latest-blue.svg
+[docs-latest-url]: https://jeremiedb.github.io/ReadLIBSVM.jl/dev
+
+[docs-stable-img]: https://img.shields.io/badge/docs-stable-blue.svg
+[docs-stable-url]: https://jeremiedb.github.io/ReadLIBSVM.jl/stable
+
+[ci-img]: https://github.com/jeremiedb/ReadLIBSVM.jl/workflows/CI/badge.svg
+[ci-url]: https://github.com/jeremiedb/ReadLIBSVM.jl/actions?query=workflow%3ACI+branch%3Amain
+
+
 ReadLIBSVM.jl is Julia package exporting `read_libsvm` function to parse data stored in the LIBSVM format.
 
 ## Installation
