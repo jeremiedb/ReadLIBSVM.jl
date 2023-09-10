@@ -1,6 +1,10 @@
-# ReadLIBSVM.jl
+# [ReadLIBSVM.jl](https://github.com/jeremiedb/ReadLIBSVM.jl)
 
-ReadLIBSVM.jl is Julia package exporting `read_libsvm` function to parse data stored in the LIBSVM format.
+ReadLIBSVM.jl is Julia package exporting `read_libsvm` function to parse data stored in the LIBSVM format:
+
+```
+<label> <query> <feature_id_1>:<feature_value_1> <feature_id_2>:<feature_value_2>
+```
 
 ## Installation
 
