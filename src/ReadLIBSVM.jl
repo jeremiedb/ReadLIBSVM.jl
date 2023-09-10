@@ -50,9 +50,6 @@ function read_libsvm(raw::Vector{UInt8}; has_query=false)
     for i in eachindex(lines)
         line = lines[i]
         line_split = split(line, r"\s+(?!$)")
-        @info "line $i"
-        @info "line" line
-        @info "line_split" line_split
         y[i] = parse(Float64, line_split[1])
         has_query ? q[i] = parse(Int, split(line_split[2], ":")[2]) : nothing
 
